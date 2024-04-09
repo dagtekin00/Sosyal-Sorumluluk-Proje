@@ -94,7 +94,7 @@
           <p class="font-bold">Toplumsal Katılımı Artırmak</p>
           <p class="font-bold">Etkin Değerlendirme ve İzleme</p>
         </div>
-        <LandingBuyTradeImage data-aos="fade-left" class="hidden sm:block" />
+        <LandingNoToDrugsImage data-aos="fade-left" class="hidden sm:block" />
       </BaseSection>
     </section>
 

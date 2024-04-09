@@ -11,20 +11,13 @@
         </div>
         <ul
           :class="[open ? 'flex' : 'hidden lg:flex']"
-          class="w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-end lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
+          class="w-full gap-8 h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-end lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
         >
-          <NavLink name="Sigara" url="/SigaraBagimlilik" />
-          <NavLink name="Alkol" url="/AlkolBagimlilik" />
-          <NavLink name="Şiddet" url="/SiddetBagimlilik" />
+          <nuxt-link to="/">AnaSayfa</nuxt-link>
+          <nuxt-link to="/SigaraBagimlilik">Sigara</nuxt-link>
+          <nuxt-link to="/AlkolBagimlilik">Alkol</nuxt-link>
+          <nuxt-link to="/SiddetBagimlilik">Şiddet</nuxt-link>
         </ul>
-      </div>
-      <div :class="[open ? 'flex' : 'hidden lg:flex']" class="space-x-3">
-        <base-button class="px-8 xl:px-10 py-3 mt-2 bg-inherit text-gradient border border-[#0c66ee]">
-          Login
-        </base-button>
-        <base-button class="px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
-          Sign Up
-        </base-button>
       </div>
     </div>
   </nav>

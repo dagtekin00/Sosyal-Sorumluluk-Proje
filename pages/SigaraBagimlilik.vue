@@ -1,44 +1,50 @@
 <template>
   <div class="w-full">
-    <div class="w-full py-16 flex flex-col items-center">
+    <div class="w-full flex flex-col items-center">
       <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">Sigara Bağımlılığı</h2>
     </div>
 
-    <section class="w-full my-12">
+    <section class="w-full">
       <BaseSection>
-        <LandingBuyTradeImage class="sm:hidden mb-8" />
+        <LandingBuyTradeImage class="sm:hidden mb-8 rounded-2xl border" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
-          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">
-            Bağımlılıklar İle ilgili <br class="hidden sm:block" />
-            Amaçlarımız neler?
-          </h2>
+          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">Tütün bağımlılığı nedir?</h2>
           <p class="paragraph">
-            amaçlar çeşitli yöntemlerle toplumda farkındalık yaratmayı, önleyici tedbirler geliştirmeyi ve bağımlılıkla
-            mücadeleyi desteklemeyi hedefleyebilir. İşte bu Amaçlar Şunlardır.
+            Dünya Sağlık Örgütüne göre nikotin kullanım bozukluğu olarak da isimlendirilen tütün bağımlılığının temel
+            belirtileri şunlardır:
           </p>
-          <p class="font-bold">Farkındalık Oluşturma</p>
-          <p class="font-bold">Önleyici Tedbirler</p>
-          <p class="font-bold">Mevcut Bağımlılıkla Mücadele Yöntemlerini Desteklemek</p>
-          <p class="font-bold">Toplumsal Katılımı Artırmak</p>
-          <p class="font-bold">Etkin Değerlendirme ve İzleme</p>
+          <p class="font-bold">Kullanımı kontrol etme kabiliyetinin bozulması</p>
+          <p class="font-bold">Tütün kullanımına diğer etkinliklere göre daha fazla öncelik verilmesi,</p>
+          <p class="font-bold">
+            - Zararlarla veya olumsuz sonuçlarla karşılaşılmasına rağmen kullanıma devam edilmesi ile kendini gösteren
+            güçlü bir nikotin kullanma isteği,
+          </p>
+          <p class="font-bold">Nikotinin gitgide eski etkisini kaybetmesi (tolerans geliştirilmesi),</p>
+          <p class="font-bold">
+            Nikotin kullanımının kesilmesi veya azaltılması sonrasında yoksunluk belirtilerinin görülmesi
+          </p>
+          <p class="paragraph">
+            Dünya Sağlık Örgütünün kriterlerine göre bir kişiye “tütün kullanım bozukluğu tanısı” konulabilmesi için,
+            bireylerin en az bir aydır, düzenli olarak sigara kullanması ve diğer belirtileri taşıması gerekmektedir.
+          </p>
         </div>
-        <LandingBuyTradeImage data-aos="fade-left" class="hidden sm:block" />
+        <LandingSigaraResimImage data-aos="fade-left" class="hidden sm:block mt-32" />
       </BaseSection>
     </section>
 
     <!-- Partners section -->
-    <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
+    <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">
-          Sosyal Sorumluluk İle ilgilenen kuruluşlar
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold mb-10">
+          En yaygın tütün ürünleri Şunlardır
         </h3>
-        <p data-aos="flip-down" class="paragraph">Kültürel Mirasımızı Koruyalım, Geleceğe Taşıyalım!</p>
-        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
-          <LandingPartnerImage
-            v-for="img in ['Greenpeace_logo.png', 'TEGV.png', 'Amnesty-International-Logo.png', 'Logo_of_UNICEF.png']"
-            :key="img"
-            :img="img"
-          />
+        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-28 font-bold">
+          <p>Sigara</p>
+          <p>Sarmalık Kıyılmış tütün mamulü</p>
+          <p>Pipo</p>
+          <p>Puro</p>
+          <p>Nargilelik tütün mamulü</p>
+          <p>Enfiye</p>
         </div>
       </div>
     </section>
@@ -47,68 +53,154 @@
     <section class="w-full my-36">
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
-          <div class="w-full">
-            <img :src="require('~/assets/img/pngtree-drug-prohibition-icon.png')" class="w-[95%]" alt="" />
+          <div class="w-full mt-36">
+            <img
+              :src="require('~/assets/img/SigaraBagimlilik/psikoterapi-ile-sigarayi-birakmak_767.jpg')"
+              class="w-[95%] rounded-2xl border"
+              alt=""
+            />
           </div>
         </div>
         <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20">
-          <h2 class="text-4xl font-semibold">
-            Kötü Alışkanlıklar <span class="text-header-gradient">Hayatımızı</span> Nasıl Etkiler
+          <h2 class="text-4xl font-semibold text-red-600">
+            Tütün <span class="text-header-gradient"> Yoksunluğu </span>Nedir?
           </h2>
           <p class="paragraph">
-            Kötü alışkanlıkların hayatımızı olumsuz yönde etkilemesi birçok şekilde olabilir. İşte bunlardan bazıları
+            Tütünün özgün maddesi koyu renkli bir sıvıdır ve bahsedilen bu zehirli sıvıya nikotin adı verilmektedir.
+            Nikotinin şiddetli bağımlılık yapıcı etkisi vardır. 90-120 dakika boyunca alınmadığında, yoksunluk
+            belirtileri ortaya çıkmaya başlar. Bu belirtiler tütünün bırakıldığı ilk gün en üst düzeyde hissedilebilir;
+            ancak yoksunluk belirtileri zamanla azalarak yok olmaktadır.
+          </p>
+          <p class="paragraph">
+            Yoksunluk belirtileriyle baş etmek ve istekle başa çıkmak gibi, bırakma sürecinde kişiyi zorlayabilecek bazı
+            durumlar ortaya çıkabilir. Bu süreci bir uzman desteği alarak kendiniz için kolaylaştırabilirsiniz
           </p>
           <ul class="space-y-4 sm:space-y-2">
-            <LandingListItem title="Sağlık Sorunları" />
-            <LandingListItem title="Finansal Zorluklar" />
-            <LandingListItem title="Kişisel İlişkilerde Sorunlar" />
-            <LandingListItem title="Duygusal ve Psikolojik Sorunlar" />
+            <LandingListItem title="Kolay kızma ya da öfkelenme" />
+            <LandingListItem title="Baş dönmesi" />
+            <LandingListItem title="İştah artışı" />
+            <LandingListItem title="Kas kasılmaları" />
+            <LandingListItem title="Tansiyon düşmesi" />
+            <LandingListItem title="Uykusuzluk gibi belirtiler sayılabilir." />
+            <LandingListItem title="Şiddetli nikotin alma isteği gibi belirtiler sayılabilir." />
           </ul>
         </div>
       </BaseSection>
     </section>
 
-    <!-- Advanced trading tools section -->
     <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
-        <LandingTradingToolImage class="sm:hidden" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
-          <h2 class="text-3xl font-semibold">
-            Kötü alışkanlıklardan<span class="text-header-gradient"> Uzak </span>durmak
-          </h2>
+          <h2 class="text-3xl font-semibold">Pasif İçicilik ya da İkinci El Tütün Dumanına Maruz Kalma Nedir?</h2>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Hedef Belirleme ve Motivasyon</h4>
             <p class="paragraph text-sm xl:text-base">
-              İlk adım olarak, kötü alışkanlıklardan kurtulma isteğinizi netleştirin ve bu konuda kendinize bir hedef
-              belirleyin. Bu hedefler sizin için anlamlı olmalı ve sizi motive etmelidir.
+              Tütün, yalnızca kullanıcı olanlarda değil, doğrudan kullanıcısı olmayanlarda da sağlık sorunlarıyla
+              birlikte ciddi sonuçlara yol açabilmektedir. Tütün ürünlerinin içindeki toksin (zehir) ve kansere neden
+              olabilecek diğer maddeler yanan sigaradan havaya yayılarak, içen kişinin yakınındakiler için zehirli bir
+              ortam oluşturur. Bu sebeple tütün kullanmadığı halde tütüne maruz kalanların durumu da büyük bir önem arz
+              etmektedir. Bu durum pasif içicilik ya da ikinci el tütün dumanına maruz kalma olarak ele alınmaktadır.
+              İkinci el tütün dumanı, sigara ve nargile gibi tütün ürünlerinin kullanıldığı durumlarda kapalı alanları
+              dolduran dumandır. Bu dumanın solunması pasif içicilik olarak adlandırılmaktadır.
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Nedenleri Anlama</h4>
             <p class="paragraph text-sm xl:text-base">
-              Kötü alışkanlıkların arkasındaki nedenleri anlamak önemlidir. Bu nedenler fiziksel, duygusal veya çevresel
-              olabilir. Kendinize neden kötü alışkanlıklara başladığınızı sorun ve bu nedenlerle başa çıkma yolları
-              arayın.
+              Dünya Sağlık Örgütü 2020 yılı açıklamasına göre; ikinci el tütün dumanına maruz kalma, özellikle erken
+              yaşta çok daha kritik sonuçlara sebep olmaktadır. Dünya genelindeki çocuk nüfusunun yaklaşık yarısı tütün
+              dumanının kirlettiği havayı solumakta ve bu durum ciddi sağlık sorunlarını ortaya çıkarmaktadır.
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Destek Arama</h4>
-            <p class="paragraph text-sm xl:text-base">
-              Kötü alışkanlıklardan kurtulmak için destek almak önemlidir. Aile üyeleri, arkadaşlar, terapistler veya
-              destek grupları gibi kaynaklardan yardım isteyebilirsiniz. Bu destek aynı zamanda size motivasyon ve güç
-              verebilir.
-            </p>
+            <h4 class="text-lg font-medium">PASİF İÇİCİLİĞİN TEHLİKELERİ ŞU ŞEKİLDEDİR:</h4>
+            <ul class="space-y-4 sm:space-y-2">
+              <LandingListItem
+                title="Yanan bir sigaradan çevreye yayılan duman 50 adeti kanser yapıcı olan 4.000 kimyasal madde ve toksin içermektedir"
+              />
+              <LandingListItem
+                title="Bir sigaranın yaklaşık 12 dakikada yandığını ancak sigara içen bir kişinin sigarayı yalnızca 30 saniye içine çektiğini söyleyebiliriz. Geri kalan dumanı çevredekiler içine çekmektedir."
+              />
+              <LandingListItem
+                title="Çevreye yayılan sigara dumanı içilenden daha zararlıdır. Çünkü sigara içildiği zaman ısı daha yüksektir; ancak çevreye yayılan duman daha düşük ısıdan yayılmaktadır"
+              />
+              <LandingListItem
+                title="Çevreye yayılan sigara dumanı normal olarak içilen sigaradan 3 kat daha fazla nikotin, yüzde 70 oranında daha fazla katran ve 2,5 kat fazla karbon monoksit içermektedir."
+              />
+            </ul>
           </div>
         </div>
-        <LandingTradingToolImage data-aos="fade-left" class="hidden sm:block" />
+        <LandingPasifIcicilikImage data-aos="fade-left" class="hidden sm:block rounded-2xl lg:mt-56 mt-24" />
       </div>
     </section>
 
-    <!-- Industry-leading security section -->
+    <section class="w-full my-36">
+      <BaseSection data-aos="fade-down">
+        <div class="col-span-12 lg:col-span-7">
+          <div class="w-full mt-36">
+            <img
+              :src="require('~/assets/img/SigaraBagimlilik/tutun-bagimliligi.png')"
+              class="w-[95%] rounded-2xl border"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20">
+          <h2 class="text-4xl font-semibold text-red-600">
+            Tütün Bağımlılığının Yol Açtığı <span class="text-header-gradient"> Sağlık </span>Sorunları Nelerdir?
+          </h2>
+          <h1 class="font-bold">Tütün kullanımı aşağıdaki hastalıkların oluşmasında etkilidir</h1>
+          <ul class="space-y-4 sm:space-y-2">
+            <LandingListItem title="Kanser türleri (akciğer, mide, cilt, rahim ağzı vs.)" />
+            <LandingListItem title="Kalp ve damar hastalıkları" />
+            <LandingListItem title="Diyabet" />
+            <LandingListItem title="Solunum hastalıkları" />
+            <LandingListItem title="Gastrit, Ülser gibi mide hastalıkları" />
+            <LandingListItem
+              title="Diş ve diş eti hastalıkları Gebelikte erken doğum, düşük doğum, çocukta gelişim bozuklukları, sütün kesilmesi"
+            />
+          </ul>
+          <p class="paragraph">
+            Tütün kullanımı, halk sağlığı açısından kritik bir sorundur ve toplumun genel hastalık riskini ve yükünü
+            artırmaktadır. Dünya Sağlık Örgütünün 2019 yılı Avrupa Tütün Kullanım Trendleri Raporuna göre; sigara
+            kullanımı erken ölüm riskini artırmaktadır. Aynı raporda tütün kullanımı dünyadaki erken ölümlerin önde
+            gelen nedenlerinden biri olarak bildirilmektedir ve tüm ölümlerin yaklaşık yüzde 18 üzerinde etkili olduğu
+            belirtilmektedir
+          </p>
+        </div>
+      </BaseSection>
+    </section>
 
-    <!-- Getting started section -->
-
-    <!-- FAQ section -->
+    <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+      <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
+        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
+          <h2 class="text-3xl font-semibold">Tütün Kullanımının Çocuk ve Ergenler Üzerindeki Etkileri Nelerdir?</h2>
+          <div class="space-y-2">
+            <p class="paragraph text-sm xl:text-base">
+              Şüphesiz ki tütün kullanımı toplumun tamamını ilgilendiren bir sorun olarak görülmektedir. Öte yandan
+              gelişme çağındaki çocuk ve ergenler üzerinde daha kalıcı etkiler bırakmaktadır. Bu dönemlerdeki etkileri
+              değerlendirdiğimizde şunları söyleyebiliriz:
+            </p>
+            <ul class="space-y-4 sm:space-y-2 mt-4">
+              <LandingListItem
+                title="Çocukluk ve ergenlik dönemleri, gerek tütün tüketimi gerekse yasa dışı uyuşturucu madde kullanımı da dâhil olmak üzere birçok sağlığa zararlı davranışta bulunma eğiliminin ortaya çıkabildiği bir tür deneme dönemidir"
+              />
+              <LandingListItem
+                title="Tütün kullanan çocuk ve ergenlerin yetişkinlik döneminde düzenli tütün kullanıcısı olma olasılığı daha yüksektir"
+              />
+              <LandingListItem
+                title="Çocukluk ve ergenlik döneminde tütün içmek kısa vadede astım uzun vadede kalp-damar, solunum ve kanser gibi hastalıkların riskini artırmaktadır"
+              />
+              <LandingListItem
+                title="Tütün kullanımı bireyin psikolojik, fiziksel ve sosyal yaşamını olumsuz etkilemekte; erken ölüm riskini artırmaktadır."
+              />
+              <LandingListItem
+                title="Tütün kullanımından dolayı ortaya çıkan duman, kullanmayan kişiler için de ciddi sonuçlar doğurmaktadır. İkinci el tütün dumanı; kalp hastalığına, kansere ve diğer kronik hastalıklara sebep olabilmektedir"
+              />
+            </ul>
+          </div>
+        </div>
+        <LandingTütünKullanimiImage data-aos="fade-left" class="hidden sm:block rounded-2xl lg:mt-56 mt-24" />
+      </div>
+    </section>
 
     <div class="w-full my-10 flex justify-center">
       <a
