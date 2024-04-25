@@ -26,6 +26,7 @@
             >
               Bizlere Ulaşmak İçin
             </BaseButton>
+            <div id="nav"></div>
           </div>
         </div>
         <div class="hidden sm:block col-span-12 lg:col-span-6">
@@ -72,10 +73,20 @@
     <section
       class="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
     >
-      <h1 class="mx-10"></h1>
+      <ul :class="[open ? 'flex' : 'hidden lg:flex']" class="w-full gap-8 h-auto flex justify-center">
+        <a href="#1">1</a>
+        <a href="#2">2</a>
+        <a href="#3">3</a>
+        <a href="#4">4</a>
+        <a href="#5">5</a>
+        <a href="#6">6</a>
+        <a href="#7">7</a>
+        <a href="#8">8</a>
+      </ul>
     </section>
 
     <!-- Buy and trade section -->
+    <div id="1"></div>
     <section class="w-full my-24">
       <BaseSection>
         <LandingBuyTradeImage class="sm:hidden mb-8" />
@@ -96,9 +107,11 @@
         </div>
         <LandingNoToDrugsImage data-aos="fade-left" class="hidden sm:block" />
       </BaseSection>
+      <div id="2"></div>
     </section>
 
     <!-- Partners section -->
+
     <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">
@@ -116,6 +129,7 @@
     </section>
 
     <!-- Credit card section -->
+    <div id="3"></div>
     <section class="w-full my-36">
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
@@ -141,6 +155,7 @@
     </section>
 
     <!-- Advanced trading tools section -->
+    <div id="4"></div>
     <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingTradingToolImage class="sm:hidden" />
@@ -177,6 +192,7 @@
     </section>
 
     <!-- Industry-leading security section -->
+    <div id="5"></div>
     <section class="w-full my-24">
       <div class="relative max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6">
@@ -220,6 +236,7 @@
     </section>
 
     <!-- Getting started section -->
+    <div id="6"></div>
     <section class="bg-trading-tools relative max-w-full sm:mx-4 xl:mx-10 my-24 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full py-16 flex flex-col items-center">
         <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">
@@ -242,9 +259,11 @@
           />
         </div>
       </div>
+      <div id="7"></div>
     </section>
 
     <!-- FAQ section -->
+
     <section class="w-full my-24">
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingTradingToolImage class="sm:hidden" />
@@ -278,6 +297,7 @@
       </div>
     </section>
 
+    <div id="8"></div>
     <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingAlkolImage data-aos="fade-left" class="hidden sm:block" />
@@ -325,15 +345,14 @@
       </div>
     </section>
 
-    <div class="w-full my-10 flex justify-center">
+    <div class="fixed top-[85%] right-10">
       <a
         v-smooth-scroll
         data-aos="flip-down"
         data-aos-delay="150"
-        href="#navbar"
-        class="px-6 py-3 flex items-center space-x-2 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-md text-gray-700"
+        href="#nav"
+        class="flex items-center space-x-2 p-3 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-full text-gray-700"
       >
-        <span>Back to top</span>
         <ArrowUpIcon :size="20" />
       </a>
     </div>

@@ -5,6 +5,7 @@
     </div>
 
     <section class="w-full">
+      <div id="1"></div>
       <BaseSection>
         <LandingBuyTradeImage class="sm:hidden mb-8 rounded-2xl border" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
@@ -29,9 +30,24 @@
           </p>
         </div>
         <LandingSigaraResimImage data-aos="fade-left" class="hidden sm:block mt-32" />
+        <div id="nav"></div>
       </BaseSection>
     </section>
 
+    <section
+      class="max-w-screen-xl mx-2 mt-52 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
+    >
+      <ul :class="[open ? 'flex' : 'hidden lg:flex']" class="w-full gap-8 h-auto flex justify-center">
+        <a href="#1">1</a>
+        <a href="#2">2</a>
+        <a href="#3">3</a>
+        <a href="#4">4</a>
+        <a href="#5">5</a>
+        <a href="#6">6</a>
+        <a href="#7">7</a>
+      </ul>
+    </section>
+    <div id="2"></div>
     <!-- Partners section -->
     <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
@@ -51,6 +67,7 @@
 
     <!-- Credit card section -->
     <section class="w-full my-36">
+      <div id="3"></div>
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full mt-36">
@@ -87,8 +104,8 @@
         </div>
       </BaseSection>
     </section>
-
     <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+      <div id="4"></div>
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
           <h2 class="text-3xl font-semibold">Pasif İçicilik ya da İkinci El Tütün Dumanına Maruz Kalma Nedir?</h2>
@@ -133,6 +150,7 @@
     </section>
 
     <section class="w-full my-36">
+      <div id="5"></div>
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full mt-36">
@@ -170,6 +188,7 @@
     </section>
 
     <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+      <div id="6"></div>
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
           <h2 class="text-3xl font-semibold">Tütün Kullanımının Çocuk ve Ergenler Üzerindeki Etkileri Nelerdir?</h2>
@@ -202,6 +221,7 @@
       </div>
     </section>
     <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
+      <div id="7"></div>
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-28 font-bold">
           <video width="320" height="240" controls preload="none">
@@ -212,15 +232,14 @@
       </div>
     </section>
 
-    <div class="w-full my-10 flex justify-center">
+    <div class="fixed top-[85%] right-10">
       <a
         v-smooth-scroll
         data-aos="flip-down"
         data-aos-delay="150"
-        href="#navbar"
-        class="px-6 py-3 flex items-center space-x-2 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-md text-gray-700"
+        href="#nav"
+        class="flex items-center space-x-2 p-3 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-full text-gray-700"
       >
-        <span>Back to top</span>
         <ArrowUpIcon :size="20" />
       </a>
     </div>

@@ -4,6 +4,7 @@
       <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">Alkol Bağımlılığı</h2>
     </div>
     <section class="w-full">
+      <div id="1"></div>
       <BaseSection>
         <LandingBuyTradeImage class="sm:hidden mb-8" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
@@ -16,6 +17,7 @@
             alkol kullanım örüntüsüdür. <br />
             <strong class="text-2xl">!</strong> Alkol bağımlılığının temel belirtileri arasında şunlar yer almaktadır:
           </p>
+          <div id="nav"></div>
           <p class="font-bold">Kullanımı kontrol etme kabiliyetinin bozulması</p>
           <p class="font-bold">
             Alkol kullanmayı bırakmak ya da denetim altında tutmak için sürekli bir istek ya da sonuç vermeyen çabalar
@@ -36,7 +38,20 @@
       </BaseSection>
     </section>
 
+    <section
+      class="max-w-screen-xl mx-2 mt-52 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
+    >
+      <ul :class="[open ? 'flex' : 'hidden lg:flex']" class="w-full gap-8 h-auto flex justify-center">
+        <a href="#1">1</a>
+        <a href="#2">2</a>
+        <a href="#3">3</a>
+        <a href="#4">4</a>
+        <a href="#5">5</a>
+      </ul>
+    </section>
+
     <!-- Partners section -->
+    <div id="2"></div>
     <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold mb-10">
@@ -53,6 +68,7 @@
     </section>
 
     <!-- Credit card section -->
+    <div id="3"></div>
     <section class="w-full">
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
@@ -92,6 +108,7 @@
 
     <!-- Advanced trading tools section -->
     <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+      <div id="4"></div>
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingBuyTradeImage class="sm:hidden" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
@@ -145,9 +162,10 @@
     </section>
 
     <section class="w-full">
+      <div id="5"></div>
       <BaseSection>
         <LandingBuyTradeImage class="sm:hidden mb-8" />
-        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
+        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4 mb-10">
           <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">
             Alkol Kullanımının Çocuk ve Ergenler Üzerindeki Etkileri Nelerdir?
           </h2>
@@ -193,15 +211,14 @@
 
     <!-- Industry-leading security section -->
 
-    <div class="w-full my-10 flex justify-center">
+    <div class="fixed top-[85%] right-10">
       <a
         v-smooth-scroll
         data-aos="flip-down"
         data-aos-delay="150"
-        href="#navbar"
-        class="px-6 py-3 flex items-center space-x-2 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-md text-gray-700"
+        href="#nav"
+        class="flex items-center space-x-2 p-3 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-full text-gray-700"
       >
-        <span>Back to top</span>
         <ArrowUpIcon :size="20" />
       </a>
     </div>

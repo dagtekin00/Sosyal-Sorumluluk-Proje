@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="w-full flex flex-col items-center">
-      <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">Şiddet Bağımlılığı</h2>
+      <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">Teknoloji Bağımlılığı</h2>
     </div>
     <section class="w-full">
       <div id="1"></div>

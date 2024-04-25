@@ -15,6 +15,9 @@
         >
           <nuxt-link to="/">AnaSayfa</nuxt-link>
           <nuxt-link to="/SigaraBagimlilik">Sigara</nuxt-link>
+          <nuxt-link to="/MaddeBagimlilik">Madde </nuxt-link>
+          <nuxt-link to="/TeknolojiBagimlilik">Teknoloji</nuxt-link>
+          <nuxt-link to="/SiberZorbalik" class="w-max">Siber Zorbalık</nuxt-link>
           <nuxt-link to="/AlkolBagimlilik">Alkol</nuxt-link>
           <nuxt-link to="/SiddetBagimlilik">Şiddet</nuxt-link>
         </ul>

@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 .cover-gradient {
   background: linear-gradient(
     169.4deg,
