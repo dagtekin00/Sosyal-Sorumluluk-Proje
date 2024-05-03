@@ -7,28 +7,28 @@
       <div id="1"></div>
       <BaseSection>
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
-          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">Şiddet Bağımlılığı Nedir?</h2>
+          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">Siber Zorbalık Nedir?</h2>
           <p class="paragraph">
-            Şiddet, insanlık için ne yazık ki yaygın bir sorun haline gelmiştir. Fiziksel, duygusal veya sözlü olarak,
-            şiddet insanların zarar görmesine ve acı çekmesine neden olur. Ancak şiddetin çözüm getirmediği, aksine daha
-            fazla zarara yol açtığı bir gerçektir. <br />
+            Siber zorbalık, dijital teknolojiler kullanılarak gerçekleştirilen zorbalıktır.
+            Bu tür zorbalıklar sosyal medyada, mesajlaşma platformlarında, oyun platformlarında ve cep telefonlarında görülebilir.
+            Hedef seçilen kişileri korkutmaya, kızdırmaya ya da utandırmaya yönelik olarak tekrarlanan bir davranıştır.
+            Buna örnek olarak şu eylemler gösterilebilir: <br />
             <br />
-            Şiddet, herkesin hakkına saygı göstermek ve barış içinde bir arada yaşamak için temel bir engeldir. Şiddetin
-            olduğu bir toplumda, insanlar korku içinde yaşarlar ve özgürce ifade edemezler. İnsanların temel haklarına
-            saygı göstermek, barışçıl çözümler bulmak ve empati kurmak, şiddetin yerine geçebilecek en güçlü araçlardır.
-            <br />
+            <ul class="space-y-4 sm:space-y-2">
+              <p><strong class="text-2xl">!</strong> Sosyal medyada bir kişi hakkında yalanlar yaymak ya da utandırıcı fotoğraflar yayınlamak</p>
+              <p><strong class="text-2xl">!</strong> Mesajlaşma platformlarından incitici mesajlar ya da tehditler yollamak</p>
+              <p><strong class="text-2xl">!</strong> Başka birinin kimliğiyle başkalarına kötü mesajlar göndermek</p>
+            </ul>
             <div id="nav"></div>
-            <br />
-            Şiddetin köklerini kurutmak için toplum olarak çaba göstermeliyiz. Eğitim ve farkındalık artırma
-            çalışmalarıyla şiddetin nedenleri üzerinde durarak, insanların şiddete başvurmadan sorunları çözebilecekleri
-            beceriler kazanmalarını sağlamalıyız. Ayrıca, şiddetin mağdurlarına destek olmalı, onların haklarını
-            korumalı ve toplumda şiddetin kabul edilemez olduğu mesajını güçlendirmeliyiz. <br />
+            Yüz yüze zorbalık ve siber zorbalık çoğu kez birlikte gerçekleşir.
+            Ancak siber zorbalık geride dijital iz bırakır;
+            bu da aslında istismarın durdurulmasını sağlayacak yararlı ip uçları temin edebilir. <br />
             <br />
             <!-- Şiddetin yerine barışı ve hoşgörüyü tercih etmek, her birimizin sorumluluğudur. Küçük çatışmaları bile şiddet yoluyla çözmek yerine, iletişim, anlayış ve uzlaşma yoluyla çözmeliyiz. Bu, daha sağlıklı, daha mutlu ve daha barışçıl bir toplum için adım atmaktır.
           Sonuç olarak, şiddetin hiçbir kazananı yoktur. Şiddet, sadece acıyı ve zararı artırır. Bu nedenle, hepimiz şiddeti reddetmeli ve barış içinde bir arada yaşamanın yollarını bulmalıyız. Her birimiz, küçük adımlarla bile şiddete karşı durabilir ve daha iyi bir dünya için çalışabiliriz. <br> <br> -->
           </p>
         </div>
-        <LandingSiddetImage data-aos="fade-left" class="hidden sm:block py-24" />
+        <LandingSiberResimImage data-aos="fade-left" class="hidden sm:block py-20" />
       </BaseSection>
     </section>
 
@@ -45,19 +45,14 @@
 
     <!-- Partners section -->
     <div id="2"></div>
-    <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
+    <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">
-          Kadına Yönelik Şiddet Konusunda Hizmet Veren Kuruluşlar
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold mb-10">
+          Türkiye Siber Zorbalıkta Ne Durumda?
         </h3>
-        <p data-aos="flip-down" class="paragraph">Kadına Şiddete Hayır!</p>
-        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-10">
-          <LandingPartnerImage
-            v-for="img in ['TC-aile.png', 'mor-cati-vakif.png', 'sosyal-politika.png']"
-            :key="img"
-            :img="img"
-            class="w-56"
-          />
+        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-28 font-bold">
+          <p>Yaklaşık %12'si sözlü siber zorbalığa maruz kaldığını söylemektedir.
+          Öğrencilerin yaklaşık %10.5'i ise sözlü siber zorbalık yaptığını ifade etmektedir</p>
         </div>
       </div>
     </section>
@@ -68,30 +63,24 @@
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full">
-            <img :src="require('~/assets/img/SiddetBagimlilik/siddet.jpg')" class="w-[95%] mt-44" alt="" />
+            <img :src="require('~/assets/img/SiberZorbalık/Cyber-1.jpeg')" class="w-[95%]" alt="" />
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20">
+        <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6">
           <h2 class="text-4xl font-semibold">
-            Saldırgan Davranışlar Hangi <span class="text-header-gradient"> Durumlarda </span> Ortaya Çıkar?
+            <span class="text-header-gradient"> Zorbalık </span> Davranışları
           </h2>
-          <h2 class="font-bold">Şiddet eğilimindeki artışla birlikte ortaya çıkan saldırgan davranışlar;</h2>
-          <p class="paragraph">
-            <strong class="text-2xl">!</strong> Genellikle evli kadın ve erkekler arasında görülür ve bu durum aile içi
-            şiddetin yaygınlaşmasında büyük rol oynar. <br />
-            <br />
-            <strong class="text-2xl">!</strong> Bireyin hayatında yakın zamanda meydana gelen büyük değişikler strese ve
-            iç gerilime neden olabilir. Bu doğrultuda gelişen içsel baskı hissi, öfke ve dürtüsellik gibi durumlar
-            şiddet içeren davranışların ortaya çıkma riskini artırır. <br />
-            <br />
-            <strong class="text-2xl">!</strong> 16-25 yaş arası erkek bireylerin fazlaca bulunduğu ortamlarda saldırgan
-            davranışların ve şiddet olaylarının gelişme riski daha yüksektir. <br />
-            <br />
-            <strong class="text-2xl">!</strong> Bireyin ruhsal gerilimini artıran olay ve kişiler, tehdit veya baskı
-            altında olma durumu, can güvenliğinin tehlikede olması gibi koşullar da şiddet eğilimini artıran önemli
-            noktalar arasında yer alır. <br />
-            <br />
-          </p>
+          <h2 class="font-bold">Kişinin fiziksel ve zihinsel bütünlüğüne zarar verme veya kişiyi suistimal etme davranışlarına örnekler:</h2>
+            <ul class="space-y-4 sm:space-y-2">
+            <LandingListItem title="Aşağılama" />
+            <LandingListItem title="İsim takma" />
+            <LandingListItem title="Kişiden yararlanma" />
+            <LandingListItem title="Güç dengesizliğini hatırlatarak tehdit etme" />
+            <LandingListItem title="Dedikodu yaparak sosyal ortamlardan bilinçli olarak dışlama" />
+            <LandingListItem title="Dil ve ırk gibi aidiyetlerle dalga geçme" />
+            <LandingListItem title="Fiziksel zarar verme niyeti ve tehditleri" />
+            <LandingListItem title="Duygusal hasar vermeye yönelik konuşmalar" />
+          </ul>
         </div>
       </BaseSection>
     </section>
@@ -102,44 +91,71 @@
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingTradingToolImage class="sm:hidden" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
-          <h2 class="text-3xl font-semibold">Şiddetin<span class="text-header-gradient"> Nedenleri </span>Nelerdir?</h2>
+          <h2 class="text-3xl font-semibold">Siber Zorbalığı Daha<span class="text-header-gradient"> Tehlikeli </span>Kılan Etkenler?</h2>
+          <h2 class="font-bold">Siber zorbalık pek çok kişi tarafından yüz yüze yapılan zorbalıktan farklı ve daha tehlikeli olarak değerlendirilir. Dijital zorbalığı diğer zorbalık türlerinden ayıran nedir?</h2>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Psikososyal Faktörler:</h4>
+            <h4 class="text-lg font-medium">Mekansızlık ve Zamansızlık:</h4>
             <p class="paragraph text-sm xl:text-base">
-              Gelişimsel Faktörler: Gelişim döneminde şiddete tanık olan veya maruz kalan çocukların yetişkinlik
-              döneminde şiddet uygulayan bireyler olma olasılığı çok daha yüksektir. <br />
-              Çevresel Faktörler: Yapılan araştırmalar doğrultusunda kalabalık yaşam ortamlarının şiddet eğilimini
-              artırdığı, hava durumunun (örneğin rahatsızlık yaratacak düzeyde artan ortam sıcaklığının) şiddet üzerinde
-              etkili olduğu söylenebilir.
+              Öncelikle siber ya da sanal zorbalık diğer tip zorbalıklardan farklı olarak zaman ve mekan fark etmeksizin her an gerçekleşebilir.
+              Siber zorbalıktan kaçınmak diğer tip zorbalıklara göre çok daha zor ve mağduru güvenli alanlarında dahi yakalayabilir.
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Sosyoekonomik Faktörler:</h4>
+            <h4 class="text-lg font-medium">Yayılma Hızı:</h4>
             <p class="paragraph text-sm xl:text-base">
-              Bu alanda yapılmış olan niteliksel çalışmaların sonuçlarında ırk ve ekonomik eşitsizlik gibi faktörlerden
-              bağımsız olarak ağır yoksulluk durumunun ve evlilik hayatında yaşanan sorunların şiddet ile ilişkili
-              olduğu ortaya konmuştur. <br />
-              Aile yapısında bozulmaya neden olan sosyoekonomik faktörler de bu ailelerde yetişen çocukların saldırgan
-              davranışlarında artışa neden olur.
+              Bir zorbalık sadece zorba ve mağdur arasında gerçekleşmez. Her zorbalıkta üçüncü bir taraf, yani tanıklar vardır. Mağdur, zorba ve tanıkların ilişkisine zorbalık üçgeni adı verilir. Bu üçgenin bir ucunu oluşturan tanıklar oldukça önemlidir. Tanıkların zorbalığı durdurmak veya devam ettirmek konusunda önemli bir rolü vardır.
+              Tanıklar, zorbanın tarafını tuttuğunda zorbalık artarak devam ederken mağdurun tarafını tuttuğunda zorbalık sonlandırılabilir.
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Psikiyatrik Faktörler:</h4>
+            <h4 class="text-lg font-medium">Anonimlik:</h4>
             <p class="paragraph text-sm xl:text-base">
-              Psikotik bozukluk olarak tanımlanan hastalıklardan manik tipteki bipolar bozukluk, şizofreni ve paranoid
-              bozukluklar saldırgan davranışlarda artışa neden olabilir. Bu psikiyatrik rahatsızlığa sahip olan
-              kişilerde hem çevreye hem kendilerine yönelik şiddet uygulama eğilimi gözlenir. <br />
-              Psikotik olmayan bozukluklardan ise travma sonrası stres bozukluğu yaşayan kişilerde; borderline, paranoid
-              ve antisosyal kişilik bozukluklarında şiddet eğiliminde artış meydana gelir ve bu kişilerde saldırgan
-              içerikli davranışlarla son derece sık karşılaşılır.
+              Anonimlik, siber zorbaların uzaktan sergiledikleri zorbaca davranışlardan kopuk hissetmelerinde ve sorumluluk üstlenmemelerinde etkili olur.
+              Sosyal normlar, bilgisayar başında daha az etkilidir.
             </p>
           </div>
         </div>
-        <LandingSiddetDongüImage data-aos="fade-left" class="hidden sm:block" />
+        <LandingSiberResimImageth data-aos="fade-left" class="hidden sm:block py-10" />
+      </div>
+    </section>
+
+    <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+      <div id="4"></div>
+      <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
+        <LandingTradingToolImage class="sm:hidden" />
+        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
+          <h2 class="text-3xl font-semibold">Siber<span class="text-header-gradient"> Zorbalık </span>Karşısında Yapılması Gerekenler</h2>
+          <h2 class="font-bold">Siber zorbalığı anonim bir şekilde yapılabildiği için takip etmek ve kontrol etmek zordur.
+             Tam da bu sebeple herhangi biri siber zorbalığa maruz kalabilir.
+              Siber zorbalık, maruz kalan kişiler üzerinde ciddi bir duygusal yük yaratabilir.
+               Siber zorbalığın birçok farklı formu bulunur ve kanıtları toplamak zorbalığın önüne geçme konusunda önem taşır.
+                Siber zorbalık karşısında yapabilecekleriniz:</h2>
+          <p class="paragraph">
+            Durumu güvendiğiniz biriyle paylaşın. Zorbalık davranışlarına maruz kalmak,
+            özellikle bu baskı ve yıldırıcı davranışlar uzun süredir devam ediyorsa
+            yalnızlaşmanıza sebep olabilir. Güvendiğiniz biriyle konuşarak destek alabilir,
+            paylaşımda bulunmanın rahatlığıyla kendinizi daha iyi hissedebilirsiniz.
+            Güçlenmelerine engel olmak için zorbaları görmezden gelin. Zorbalar,
+            siz onlara cevap verdikçe ve onlar karşısında kendinizi
+            ifade etmeye çalıştıkça güçlenirler. Bu sebeple onlarla
+            mümkün olduğunca iletişim kurmamaya çalışın.
+            Mesajlarına cevap vermeyin veya onlarla herhangi bir etkileşime girmeyin.
+            Konuşmaların ekran görüntüsü gibi kanıtları toplayın.
+            Siber zorbalığın fark edilmesini belki de en kolaylaştıran
+            şeylerden biri internetteki paylaşımların kaydının tutulabiliyor olmasıdır.
+            Zorbalığa maruz kaldığınızı düşünüyorsanız söz konusu kişinin paylaşımlarını,
+            mesajlarını, size gönderdiği görselleri kayıt altında tutun.
+            Sosyal medya platformlarında kişi hakkında şikayet oluşturun. 
+            Yaygın kullanılan sosyal medya platformlarında şikayet et/bildir gibi alanlar mevcutur.
+            Buralardan faydalanarak veya destek birimlerine mail atarak zorba kişilerin profillerini şikayet edebilirsiniz.
+          </p>
+        </div>
+        <LandingSiberResimImagefr data-aos="fade-left" class="hidden sm:block py-12" />
       </div>
     </section>
 
     <!-- Industry-leading security section -->
+
 
     <div class="fixed top-[85%] right-10">
       <a

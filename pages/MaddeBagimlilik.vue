@@ -7,28 +7,28 @@
       <div id="1"></div>
       <BaseSection>
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
-          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">Şiddet Bağımlılığı Nedir?</h2>
+          <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">Madde Bağımlılığı Nedir?</h2>
           <p class="paragraph">
-            Şiddet, insanlık için ne yazık ki yaygın bir sorun haline gelmiştir. Fiziksel, duygusal veya sözlü olarak,
-            şiddet insanların zarar görmesine ve acı çekmesine neden olur. Ancak şiddetin çözüm getirmediği, aksine daha
-            fazla zarara yol açtığı bir gerçektir. <br />
+            Sağlığı olumsuz yönde etkileyen maddenin kullanılmasının yanı sıra bireyin zarar gördüğü halde kullanımı bırakamaması,
+            madde bağımlılığı nedir, sorusuna verilebilecek en basit yanıttır. Madde bağımlısı alkol,
+            uyuşturucu içeren maddeleri tüketen ve bu maddelere bağımlı olan kişilerdir. <br />
             <br />
-            Şiddet, herkesin hakkına saygı göstermek ve barış içinde bir arada yaşamak için temel bir engeldir. Şiddetin
-            olduğu bir toplumda, insanlar korku içinde yaşarlar ve özgürce ifade edemezler. İnsanların temel haklarına
-            saygı göstermek, barışçıl çözümler bulmak ve empati kurmak, şiddetin yerine geçebilecek en güçlü araçlardır.
+            Madde bağımlısı kişiler ruhsal, fiziksel ve psikolojik olarak zarar görseler bile bağımlı oldukları maddeyi bırakmaz.
+            Madde bağımlılığı kişinin yaşamını ciddi derecede zarar verebilir. Kişi madde içmediği zamanlar,
+            maddeyi almaya karşı aşırı istek duyabilir. Maddeyi almayı bıraktıklarında yoksunluk belirtileri gösterir.
             <br />
             <div id="nav"></div>
             <br />
-            Şiddetin köklerini kurutmak için toplum olarak çaba göstermeliyiz. Eğitim ve farkındalık artırma
-            çalışmalarıyla şiddetin nedenleri üzerinde durarak, insanların şiddete başvurmadan sorunları çözebilecekleri
-            beceriler kazanmalarını sağlamalıyız. Ayrıca, şiddetin mağdurlarına destek olmalı, onların haklarını
-            korumalı ve toplumda şiddetin kabul edilemez olduğu mesajını güçlendirmeliyiz. <br />
+            Birden fazla madde bağımlılığı çeşidi bulunur. Madde bağımlılığı insanın yaşamını tehdit edici bir duruma sokabilir.
+            Kişi kendini daha iyi hissetmek için bu maddelere yönelir. Bu bireylerde ruhsal,
+            fiziksel ve psikolojik bozukluklar görülebilir. Kişi maddeyi bulamazsa çöküntüye girer.
+            Madde bağımlısı kişiler bir uzman gözetimi altında tedavi görmesi gerekir.  <br />
             <br />
             <!-- Şiddetin yerine barışı ve hoşgörüyü tercih etmek, her birimizin sorumluluğudur. Küçük çatışmaları bile şiddet yoluyla çözmek yerine, iletişim, anlayış ve uzlaşma yoluyla çözmeliyiz. Bu, daha sağlıklı, daha mutlu ve daha barışçıl bir toplum için adım atmaktır.
           Sonuç olarak, şiddetin hiçbir kazananı yoktur. Şiddet, sadece acıyı ve zararı artırır. Bu nedenle, hepimiz şiddeti reddetmeli ve barış içinde bir arada yaşamanın yollarını bulmalıyız. Her birimiz, küçük adımlarla bile şiddete karşı durabilir ve daha iyi bir dünya için çalışabiliriz. <br> <br> -->
           </p>
         </div>
-        <LandingSiddetImage data-aos="fade-left" class="hidden sm:block py-24" />
+        <LandingMaddeResimImage data-aos="fade-left" class="hidden sm:block py-48" />
       </BaseSection>
     </section>
 
@@ -45,53 +45,48 @@
 
     <!-- Partners section -->
     <div id="2"></div>
-    <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
+    <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
-        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">
-          Kadına Yönelik Şiddet Konusunda Hizmet Veren Kuruluşlar
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold mb-10">
+          Teknoloji Bağımlılığının Tedavi Yöntemleri
         </h3>
-        <p data-aos="flip-down" class="paragraph">Kadına Şiddete Hayır!</p>
-        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-10">
-          <LandingPartnerImage
-            v-for="img in ['TC-aile.png', 'mor-cati-vakif.png', 'sosyal-politika.png']"
-            :key="img"
-            :img="img"
-            class="w-56"
-          />
+        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-28 font-bold">
+          <p>Alkol bağımlılığı </p>
+          <p>Sigara bağımlılığı</p>
+          <p>Esrar bağımlılığı</p>
+          <p>Ot bağımlılığı</p>
+          <p>Kafein bağımlılığı</p>
+          <p>İlaç bağımlılığı</p>
         </div>
       </div>
     </section>
 
     <!-- Credit card section -->
-    <section class="w-full my-36">
+    <section class="w-full">
       <div id="3"></div>
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full">
-            <img :src="require('~/assets/img/SiddetBagimlilik/siddet.jpg')" class="w-[95%] mt-44" alt="" />
+            <img :src="require('~/assets/img/MaddeBagimlilik/madde-2.jpg')" class="w-[95%] mt-48" alt="" />
           </div>
         </div>
         <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20">
           <h2 class="text-4xl font-semibold">
-            Saldırgan Davranışlar Hangi <span class="text-header-gradient"> Durumlarda </span> Ortaya Çıkar?
+            Madde Bağımlılığı <span class="text-header-gradient"> Belirtileri </span> Nelerdir
           </h2>
           <h2 class="font-bold">Şiddet eğilimindeki artışla birlikte ortaya çıkan saldırgan davranışlar;</h2>
-          <p class="paragraph">
-            <strong class="text-2xl">!</strong> Genellikle evli kadın ve erkekler arasında görülür ve bu durum aile içi
-            şiddetin yaygınlaşmasında büyük rol oynar. <br />
-            <br />
-            <strong class="text-2xl">!</strong> Bireyin hayatında yakın zamanda meydana gelen büyük değişikler strese ve
-            iç gerilime neden olabilir. Bu doğrultuda gelişen içsel baskı hissi, öfke ve dürtüsellik gibi durumlar
-            şiddet içeren davranışların ortaya çıkma riskini artırır. <br />
-            <br />
-            <strong class="text-2xl">!</strong> 16-25 yaş arası erkek bireylerin fazlaca bulunduğu ortamlarda saldırgan
-            davranışların ve şiddet olaylarının gelişme riski daha yüksektir. <br />
-            <br />
-            <strong class="text-2xl">!</strong> Bireyin ruhsal gerilimini artıran olay ve kişiler, tehdit veya baskı
-            altında olma durumu, can güvenliğinin tehlikede olması gibi koşullar da şiddet eğilimini artıran önemli
-            noktalar arasında yer alır. <br />
-            <br />
-          </p>
+          <h2 class="font-bold">Çevrenizden birinin madde bağımlısı olduğundan şüpheleniyorsanız belirtilere bakarak anlayabilirsiniz, Belirtileri Aşağıdaki gibi Sıralanabilir;</h2>
+          <ul class="space-y-4 sm:space-y-2">
+            <LandingListItem title="Maddeyi kullanmak için güçlü bir istek ve dürtüye sahip olmak" />
+            <LandingListItem title="Madde kullanımını azaltmak ve kontrol altına alamamak" />
+            <LandingListItem title="Madde kullanımı nedeniyle sosyal aktivitelerden vazgeçmek" />
+            <LandingListItem title="Huzursuzluk ve gerginlik hali" />
+            <LandingListItem title="Olumsuz davranışlarda artış" />
+            <LandingListItem title="Fiziksel ve ruhsal sıkıntılar yaşamak" />
+            <LandingListItem title="Yalnız kalmak istemek ve çevreden uzaklaşmak" />
+            <LandingListItem title="Uyku bozukluğu" />
+            <LandingListItem title="Mide bulantısı ve kusma" />
+          </ul>
         </div>
       </BaseSection>
     </section>
@@ -102,44 +97,80 @@
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingTradingToolImage class="sm:hidden" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
-          <h2 class="text-3xl font-semibold">Şiddetin<span class="text-header-gradient"> Nedenleri </span>Nelerdir?</h2>
+          <h2 class="text-3xl font-semibold">Madde Bağımlılığı <span class="text-header-gradient"> Tedavi </span>Yöntemleri Nelerdir?</h2>
+          <h2 class="font-bold">Madde bağımlılığı tedavisi olan bir hastalıktır. Madde bağımlılığı tedavisi kişinin kendi çabaları ile geçmesi pek mümkün değildir. Kişinin bir uzman gözetimi altında olması tavsiye edilir Bunlar;</h2>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Psikososyal Faktörler:</h4>
+            <h4 class="text-lg font-medium">Detoksifikasyon:</h4>
             <p class="paragraph text-sm xl:text-base">
-              Gelişimsel Faktörler: Gelişim döneminde şiddete tanık olan veya maruz kalan çocukların yetişkinlik
-              döneminde şiddet uygulayan bireyler olma olasılığı çok daha yüksektir. <br />
-              Çevresel Faktörler: Yapılan araştırmalar doğrultusunda kalabalık yaşam ortamlarının şiddet eğilimini
-              artırdığı, hava durumunun (örneğin rahatsızlık yaratacak düzeyde artan ortam sıcaklığının) şiddet üzerinde
-              etkili olduğu söylenebilir.
+              Burada kişiden bağımlı olunan madde kullanımı kesilir.
+              Yoksunluk belirtilerini azaltmak için daha az bir dozda bağımlılık yapıcı ilaçlar kişiye verilir.
+              Bağımlı olan kişinin vücudundan madde tamamen arındırılmaya çalışılır.
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Sosyoekonomik Faktörler:</h4>
+            <h4 class="text-lg font-medium">Bilişsel ve davranışsal terapi:</h4>
             <p class="paragraph text-sm xl:text-base">
-              Bu alanda yapılmış olan niteliksel çalışmaların sonuçlarında ırk ve ekonomik eşitsizlik gibi faktörlerden
-              bağımsız olarak ağır yoksulluk durumunun ve evlilik hayatında yaşanan sorunların şiddet ile ilişkili
-              olduğu ortaya konmuştur. <br />
-              Aile yapısında bozulmaya neden olan sosyoekonomik faktörler de bu ailelerde yetişen çocukların saldırgan
-              davranışlarında artışa neden olur.
+              Psikoterapi ile zihinsel sağlık tedaviye yardımcı olur.
+              Terapi sayesinde birey duygu ve düşüncelerini yakından gözlemler.
+              Terapi ile olumsuz düşünceleri ve davranışları daha sağlıklı bir yapıya çevirmeyi öğrenilir.
+              Değişmeye karşı motivasyonu yükseltmeye çalışılır. Grup terapisi, aile terapisi gibi farklı terapi yöntemleri bulunur.
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Psikiyatrik Faktörler:</h4>
+            <h4 class="text-lg font-medium">Rehabilitasyon:</h4>
             <p class="paragraph text-sm xl:text-base">
-              Psikotik bozukluk olarak tanımlanan hastalıklardan manik tipteki bipolar bozukluk, şizofreni ve paranoid
-              bozukluklar saldırgan davranışlarda artışa neden olabilir. Bu psikiyatrik rahatsızlığa sahip olan
-              kişilerde hem çevreye hem kendilerine yönelik şiddet uygulama eğilimi gözlenir. <br />
-              Psikotik olmayan bozukluklardan ise travma sonrası stres bozukluğu yaşayan kişilerde; borderline, paranoid
-              ve antisosyal kişilik bozukluklarında şiddet eğiliminde artış meydana gelir ve bu kişilerde saldırgan
-              içerikli davranışlarla son derece sık karşılaşılır.
+            Bu en uzun olan süreç olarak da bilinir.
+            Diğer yöntemler arasında ise; ayakta tedavi, 
+            yatarak tedavi, korunma tedavisi, ilaç tedavisi gibi birçok farklı tedavi yöntemi sayılabilir.
             </p>
           </div>
         </div>
-        <LandingSiddetDongüImage data-aos="fade-left" class="hidden sm:block" />
+        <LandingMaddeResimImageth data-aos="fade-left" class="hidden sm:block m-auto" />
       </div>
     </section>
 
     <!-- Industry-leading security section -->
+
+    <section class="bg-trading-tools relative max-w-full sm:mx-4 my-20 py-16 shadow rounded-2xl overflow-hidden">
+      <div id="4"></div>
+      <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
+        <LandingTradingToolImage class="sm:hidden" />
+        <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
+          <h2 class="text-3xl font-semibold">Madde Bağımlılığı Hakkında Sıkça Sorulan Sorular</h2>
+          <h2 class="font-bold">Madde bağımlılığı tedavisi olan bir hastalıktır. Madde bağımlılığı tedavisi kişinin kendi çabaları ile geçmesi pek mümkün değildir. Kişinin bir uzman gözetimi altında olması tavsiye edilir Bunlar;</h2>
+          <div class="space-y-2">
+            <h4 class="text-lg font-medium">MADDE BAĞIMLILIĞI EVDE TEDAVİ EDİLİR Mİ?</h4>
+            <p class="paragraph text-sm xl:text-base">
+            Madde bağımlılığı kişinin tek başına başa çıkabileceği bir şey değildir.
+            Maddeyi bırakmayı denediği zaman bağımlı olunan madde için yoğun istek ve yoksunluk belirtileri gösterir.
+            Bunun sonucunda bağımlı olan kişi tekrar madde kulanımına başlayabilir.
+            </p>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-lg font-medium">MADDE BAĞIMLILIĞI GENETİK MİDİR?</h4>
+            <p class="paragraph text-sm xl:text-base">
+            Kişinin madde bağımlısı olma nedenlerinden birisi genetik yatkınlık olabilir.
+            Araştırmacıların yaptıkları araştırmalara göre madde bağımlılığında 
+            genetik yatkınlık büyük bir role sahiptir. Bireyin anne ya da babası
+            bağımlı kişiler ise çocukların da bağımlılık riski vardır.
+            Araştırmacılara göre madde bağımlılığının %50’sinin nedeni genetik yatkınlıklardır.
+            Bu durum kesinlikle bağımlı olunacağı anlamına gelmez. Sadece riskin yüksek olduğu bilinmesi gerekir.
+            </p>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-lg font-medium">MADDE BAĞIMLISI OLAN BİRİNE NASIL DAVRANILMALIDIR?</h4>
+            <p class="paragraph text-sm xl:text-base">
+            Madde bağımlısı olan kişiye yargılamadan iletişim kurulmaya çalışılmalıdır. Panik yapılmamalıdır.
+            Kişi ile iletişim kurulmaya çalışıldığında bağımlı olan kişinin madde etkisinde olması gerekir.
+            Destek olunmaya çalışılmalı, samimi ve empatik yaklaşılmalıdır.
+            Amacının yardımcı olmak olduğu söylenmelidir. Bağımlı bireyin tedavi için kaygılandırılmaması gerekir.
+            Saydığı ve sevdiği kişi ile iletişim kurulmaya çalışılıp yardımcı olunmalıdır.
+            </p>
+          </div>
+        </div>
+        <LandingMaddeResimImagefr data-aos="fade-left" class="hidden sm:block m-auto" />
+      </div>
+    </section>
 
     <div class="fixed top-[85%] right-10">
       <a
