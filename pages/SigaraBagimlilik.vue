@@ -29,7 +29,7 @@
             bireylerin en az bir aydır, düzenli olarak sigara kullanması ve diğer belirtileri taşıması gerekmektedir.
           </p>
         </div>
-        <LandingSigaraResimImage data-aos="fade-left" class="hidden sm:block mt-32" />
+        <LandingSigaraResimImage data-aos="fade-left" class="hidden sm:block mt-28" />
         <div id="nav"></div>
       </BaseSection>
     </section>
@@ -72,7 +72,7 @@
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full mt-36">
             <img
-              :src="require('~/assets/img/SigaraBagimlilik/psikoterapi-ile-sigarayi-birakmak_767.jpg')"
+              :src="require('~/assets/img/SigaraBagimlilik/sigara.jpeg')"
               class="w-[95%] rounded-2xl border"
               alt=""
             />
@@ -145,17 +145,17 @@
             </ul>
           </div>
         </div>
-        <LandingPasifIcicilikImage data-aos="fade-left" class="hidden sm:block rounded-2xl lg:mt-56 mt-24" />
+        <LandingPasifIcicilikImage data-aos="fade-left" class="hidden sm:block rounded-2xl lg:mt-36" />
       </div>
     </section>
 
-    <section class="w-full my-36">
+    <section class="w-full ">
       <div id="5"></div>
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full mt-36">
             <img
-              :src="require('~/assets/img/SigaraBagimlilik/tutun-bagimliligi.png')"
+              :src="require('~/assets/img/SigaraBagimlilik/sigara-2.jpeg')"
               class="w-[95%] rounded-2xl border"
               alt=""
             />
@@ -217,7 +217,7 @@
             </ul>
           </div>
         </div>
-        <LandingTütünKullanimiImage data-aos="fade-left" class="hidden sm:block rounded-2xl lg:mt-56 mt-24" />
+        <LandingTütünKullanimiImage data-aos="fade-left" class="hidden sm:block rounded-2xl m-auto" />
       </div>
     </section>
     <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
