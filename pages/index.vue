@@ -3,7 +3,7 @@
     <!-- Hero section -->
     <section id="hero" class="w-full pb-24">
       <BaseSection>
-        <div class="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
+        <div class="col-span-12 lg:col-span-6 mt-12 xl:mt-28 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
           <p></p>
           <h1
             data-aos="fade-right"
@@ -21,11 +21,6 @@
             data-aos-delay="700"
             class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-2"
           >
-            <BaseButton
-              class="max-w-full px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
-            >
-              Bizlere Ulaşmak İçin
-            </BaseButton>
             <div id="nav"></div>
           </div>
         </div>
