@@ -36,10 +36,10 @@
       class="max-w-screen-xl mx-2 mt-52 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
     >
       <ul :class="[open ? 'flex' : 'hidden lg:flex']" class="w-full gap-8 h-auto flex justify-center">
-        <a href="#1">1</a>
-        <a href="#2">2</a>
-        <a href="#3">3</a>
-        <a href="#4">4</a>
+        <a href="#1">Madde Bağımlılığı</a>
+        <a href="#2">Bağımlılık Türleri</a>
+        <a href="#3">Belirtileri</a>
+        <a href="#4">Tedavi Yönetemleri</a>
       </ul>
     </section>
 
@@ -48,7 +48,7 @@
     <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold mb-10">
-          Teknoloji Bağımlılığının Tedavi Yöntemleri
+          Bağımlılık Türleri
         </h3>
         <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-28 font-bold">
           <p>Alkol bağımlılığı </p>

@@ -42,11 +42,11 @@
       class="max-w-screen-xl mx-2 mt-52 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
     >
       <ul :class="[open ? 'flex' : 'hidden lg:flex']" class="w-full gap-8 h-auto flex justify-center">
-        <a href="#1">1</a>
-        <a href="#2">2</a>
-        <a href="#3">3</a>
-        <a href="#4">4</a>
-        <a href="#5">5</a>
+        <a href="#1">Alkol Bağımlılığı</a>
+        <a href="#2">İlaçlar</a>
+        <a href="#3">Alkol Yoksunluğu</a>
+        <a href="#4">Sağlık Sorunları</a>
+        <a href="#5">Ergenler Üzerindeki Etkileri</a>
       </ul>
     </section>
 

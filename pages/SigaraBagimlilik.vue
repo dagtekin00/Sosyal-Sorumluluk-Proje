@@ -38,13 +38,12 @@
       class="max-w-screen-xl mx-2 mt-52 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12"
     >
       <ul :class="[open ? 'flex' : 'hidden lg:flex']" class="w-full gap-8 h-auto flex justify-center">
-        <a href="#1">1</a>
-        <a href="#2">2</a>
-        <a href="#3">3</a>
-        <a href="#4">4</a>
-        <a href="#5">5</a>
-        <a href="#6">6</a>
-        <a href="#7">7</a>
+        <a href="#1">Tütün Bağımlılığı</a>
+        <a href="#2">Tütün Ürünleri</a>
+        <a href="#3">Tütün Yoksunluğu</a>
+        <a href="#4">Pasif İçicilik</a>
+        <a href="#5">Sağlık Sorunları</a>
+        <a href="#6">Çocuklar Üzerindeki Etkileri</a>
       </ul>
     </section>
     <div id="2"></div>
@@ -220,7 +219,7 @@
         <LandingTütünKullanimiImage data-aos="fade-left" class="hidden sm:block rounded-2xl m-auto" />
       </div>
     </section>
-    <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
+    <!-- <section class="bg-partner relative max-w-full sm:mx-6 mt-36 shadow sm:rounded-2xl overflow-hidden">
       <div id="7"></div>
       <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
         <div data-aos="fade-up" class="flex flex-wrap items-center justify-center gap-28 font-bold">
@@ -230,7 +229,7 @@
           </video>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <div class="fixed top-[85%] right-10">
       <a
